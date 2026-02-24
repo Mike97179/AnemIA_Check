@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type { ImageUploadResult, Answer, AssessmentResult } from '../types';
 
-const API_BASE = import.meta.env.VITE_API_BASE_URL || 'https://b110-34-125-96-97.ngrok-free.app/';
+const API_BASE = import.meta.env.VITE_API_BASE_URL || 'https://6593-35-240-222-84.ngrok-free.app/';
 
 const api = axios.create({
     baseURL: API_BASE,
